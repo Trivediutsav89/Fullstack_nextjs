@@ -43,8 +43,8 @@
 		"link": "/sign-in.html"
 	},
 	{
-		"title": "Dashboard",
+		"title": "Contact",
 		"icon": false,
-		"link": "/dashboard/index.html"
-	}]
+		"link": "/contact"
+	},
 }
