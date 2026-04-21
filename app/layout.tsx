@@ -8,6 +8,9 @@ import { Suspense } from 'react';
 import { NavigationEvents } from './components/navigation-events';
 import Loader from '@/components/Loader';
 
+// Initialize i18n
+import '@/utils/i18n';
+
 // =========================================
 // global styles
 // =========================================
