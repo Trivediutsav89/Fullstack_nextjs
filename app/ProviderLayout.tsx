@@ -9,6 +9,9 @@ import { Provider } from "react-redux";
 // auth
 import { AuthProvider } from '@/contexts/JWTAuthContext';
 
+// error boundary
+import ErrorBoundary from '@/components/ErrorBoundary';
+
 
 // using disk cache
 // import '../public/assets/css/xxx.css';
@@ -24,7 +27,9 @@ export default function ProviderLayout({children}) {
             <Provider store={store}>
 
                 <AuthProvider>
-                    {children}
+                    <ErrorBoundary>
+                        {children}
+                    </ErrorBoundary>
                 </AuthProvider>
                 
             </Provider>
