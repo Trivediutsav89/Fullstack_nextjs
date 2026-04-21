@@ -1,6 +1,15 @@
 # Changelog
 
 
+#### = 1.4.9 (April 21, 2026) =
+
+* New: Add Contact page with form functionality.
+* New: Add ErrorBoundary component for better error handling.
+* New: Add Jest testing setup with example test for Contact page.
+* New: Implement basic i18n support with react-i18next for English and French.
+* Tweak: Update navigation menu to include Contact link.
+
+
 #### = 1.4.8 (December 18, 2025) =
 
 * tweak: Upgrade to next 16.0.10.
